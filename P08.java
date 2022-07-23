@@ -72,7 +72,7 @@ public class P08{
     /*==============================================
      * pagina 13 PhaseMatic
      */
-    
+    /* 
      String[] wordListOne = {"24/7", "agora vai", "ola mundo", "estou aprendendo Java", "este é um exercício"};
      String[] wordListTwo = {"programação", "férias", "cerveja", "barulho", "nervoso"};
      String[] wordListTree = {"atenção", "militar", "foco", "sargento", "acabou", "beber"};
@@ -88,8 +88,30 @@ public class P08{
      String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListTree[rand3];
 
 
-     System.out.println("Precisamos de " + phrase);
+     System.out.println("Precisamos de " + phrase);*/
 
+
+ /*==============================================
+     * pagina 16 Imã de Geladeira
+     */
+    int x = 3;
+
+    while(x > 0){
+        if(x > 2){
+            System.out.print("a");
+        }
+        x = x - 1;
+        System.out.print("-");
+
+        if(x == 2){
+            System.out.print("b c");
+        }
+         if(x == 1){
+            System.out.print("d");
+            x = x -1;
+         }
+
+    }
 
 
 
