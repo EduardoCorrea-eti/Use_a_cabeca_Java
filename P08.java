@@ -93,7 +93,7 @@ public class P08{
 
  /*==============================================
      * pagina 16 Imã de Geladeira
-     */
+     
     int x = 3;
 
     while(x > 0){
@@ -111,8 +111,34 @@ public class P08{
             x = x -1;
          }
 
-    }
+    }*/
 
+    /************************
+    testando classe Dog
+    ***********************
+    Dog d = new Dog();
+
+    d.bark();*/
+
+
+ /************************
+    testando classe Movie
+    ************************/
+    Movie one = new Movie();
+    one.title = "Gone with tehe Stock";
+    one.genre = "Tragic";
+    one.rating = -2;
+
+    Movie two = new Movie();
+    two.title = "Lost in Cubicle Space";
+    two.genre = "Comedy";
+    two.rating = 5;
+    two.playIt();
+
+    Movie three = new Movie();
+    three.title = "Byte Club";
+    three.genre = "Tragic but ultimately uplifting";
+    three.rating = 127;
 
 
 
